@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Cloudflare local state
+.wrangler/
+
+# Secrets - never commit these.
+# Copy the .example files and fill in your own values.
+.env
+.env.local
+.env.*.local
+.dev.vars
+.dev.vars.local
+
+# Editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test output
+coverage/
